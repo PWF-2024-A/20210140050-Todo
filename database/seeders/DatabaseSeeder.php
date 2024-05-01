@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        User::factory(100)->create();
+        User::factory(101)->create();
         Todo::factory(500)->create();
     }
 }
